@@ -90,6 +90,14 @@ marquee {
     margin-bottom: 10px;
 }
 
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #ff00ff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 .profile-header h2 {
     color: #660066;
     text-shadow: 1px 1px 2px #ffccff;
