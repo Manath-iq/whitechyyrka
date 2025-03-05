@@ -1,0 +1,19 @@
+/* Custom background styles */
+
+/* This class can be added to the body element to use a custom background image */
+.custom-bg {
+    background-image: url('../images/custom-bg.jpg'); /* Replace with your image path */
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+/* You can also create specific background classes for different styles */
+.leopard-bg {
+    background-image: url('../images/leopard-bg.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+/* Add more custom background classes as needed */
