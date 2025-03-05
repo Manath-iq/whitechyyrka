@@ -85,17 +85,17 @@ marquee {
 
 .profile-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
 .profile-pic {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border: 3px solid #ff00ff;
-    border-radius: 50%;
-    margin-right: 10px;
+    border-radius: 5px;
+    margin-right: 15px;
+    object-fit: cover;
 }
 
 .profile-header h2 {
@@ -135,8 +135,8 @@ marquee {
     text-decoration: none;
 }
 
-/* Девка блок */
-.devka-block {
+/* Дедка блок */
+.dedka-block {
     background-color: #ff99cc;
     border: 2px solid #ff00ff;
     border-radius: 5px;
@@ -144,20 +144,20 @@ marquee {
     margin-bottom: 15px;
 }
 
-.devka-header {
+.dedka-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.devka-content {
+.dedka-content {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.devka-content img {
+.dedka-content img {
     width: 80px;
     height: 80px;
     border: 3px solid #ff00ff;
